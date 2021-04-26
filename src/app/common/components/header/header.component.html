@@ -1,0 +1,10 @@
+<header>
+    <ul>
+        <li>
+            <a href="usuarios">usuarios</a>
+        </li>
+    </ul>
+
+    <a routerLink="login" *ngIf="!loggedIn">Iniciar Sesion</a>
+    <a (click)="logout()" *ngIf="loggedIn">Cerrar Sesion</a>
+</header>

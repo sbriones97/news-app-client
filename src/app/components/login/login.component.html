@@ -1,0 +1,22 @@
+<!-- <form (submit)="hacerLogin()">
+    <div class="error" *ngIf="error">
+        <p>Las credenciales son incorrectas</p>
+    </div>
+    <div>
+        <label for="username">Nombre de usuario: </label>
+        <input type="text" [(ngModel)]="credentials.username" name="username" placeholder="hello@email.com">
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" [(ngModel)]="credentials.password" name="password" placeholder="lorem123">
+    </div>
+    <div>
+        <button [appClick]="'cancel-login'" type="button">Cancelar</button>
+        <button [appClick]="'submit-login'">Iniciar Sesion</button>
+        <a [appClick]="'link-to-register'" routerLink="/register">Registrarte</a>
+    </div>
+</form> -->
+
+<p>login works</p>
+<button (click)="login()">Iniciar Sesion</button>
+<button (click)="googleLogin()">Iniciar con Google</button>

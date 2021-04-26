@@ -1,0 +1,7 @@
+<h2>Listado de Usuarios</h2>
+<ul>
+    <li *ngFor="let user of users">
+        <!-- <a routerLink="{{user.id}}">{{user.name}}</a> -->
+        <a (click)="selectUser(user)">{{user.name}}</a>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+<h1>Usuarios</h1>
+<!-- 
+<router-outlet></router-outlet> 
+-->
+<button (click)="handleClick($event)">click me!</button>
+<app-users-list (onUserSelected)="handleUserSelected($event)" [items]="users"></app-users-list>
+
+<app-users-data [user]="selectedUser"></app-users-data>
+
+<p>Fin</p>
